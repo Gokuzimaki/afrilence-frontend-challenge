@@ -4,7 +4,7 @@ This is a simple front-end challenge testing knowledge and skill in problem solv
 The project is built strictly with HTML, CSS and Vanilla JavaScript.
 
 ## Requirements
-To test the code, you will need an up to date browser (Supports ES6 and CSS Media Queries) and git installed. You can download the browser and  from the internet 
+To test the code, you will need an up to date browser (Supports ES6 and CSS Media Queries) and git installed. You can download the browser and Git from the internet 
 
 ## Installation
 
