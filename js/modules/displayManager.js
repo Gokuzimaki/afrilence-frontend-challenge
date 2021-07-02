@@ -227,12 +227,7 @@ class DisplayManager {
                 	resultSetEnd - this.resultsData.length + 1:
                 	this.currentPage;
 
-                if (this.currentPage > 1) {
-
-                    // resultSetStart += 1;
-                }else{
-                	resultSetEnd = this.currentPage * this.resultsPerPage;
-                }
+                
 
                 resultsDescription.innerHTML = `
 	    			Showing <b>${resultSetStart}</b> to <b>${resultSetEnd}</b> of <b>${this.totalDataCount}</b> results
