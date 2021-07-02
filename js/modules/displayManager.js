@@ -5,7 +5,7 @@
  */
 class DisplayManager {
 
-    constructor(responseJSONData, paginationFunc) {
+    constructor(responseJSONData) {
                 
         this.setResponseJSONData(responseJSONData);
 
@@ -22,7 +22,6 @@ class DisplayManager {
         this.initDisplay();
         
     }
-
 
     /**
      * initDisplay initialises the UI Display with retrieved or existing data

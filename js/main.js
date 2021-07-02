@@ -70,9 +70,7 @@ function initPagination(){
 				pageID = parseInt(currentPage) - 1;
 			}
 
-
-
-			if(typeof pageID !== "undefined"){
+			if(pageID !== null){
 				 initDisplay(pageID);
 			}
 		});
