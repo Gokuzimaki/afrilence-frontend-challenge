@@ -70,7 +70,7 @@ function initPagination(){
 				pageID = parseInt(currentPage) - 1;
 			}
 
-			if(pageID !== null){
+			if(pageID !== null && pageID !== currentPage){
 				 initDisplay(pageID);
 			}
 		});
