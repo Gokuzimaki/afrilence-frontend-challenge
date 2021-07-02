@@ -232,6 +232,7 @@ class DisplayManager {
                 resultsDescription.innerHTML = `
 	    			Showing <b>${resultSetStart}</b> to <b>${resultSetEnd}</b> of <b>${this.totalDataCount}</b> results
 	    		`;
+
             } else {
                 resultsDescription.innerHTML = '';
             }
@@ -240,13 +241,6 @@ class DisplayManager {
             console.error('No results description area found');
         }
     }
-
-    parseStringToHTML(str) {
-      const parser = new DOMParser();
-
-      return parser.parseFromString(str, 'text/html');
-
-    };
 
     /**
      * setResultsTableDisplay Updates the results table rows display with 
